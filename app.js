@@ -240,3 +240,43 @@
 // document.write("Toatl mark"+" "+totalMarks+" " +"Mark obtained"+" "+markObtained+" "+percentage);
 
 //q 9.
+// var totalPKR= (10*104.80)+(25*28);
+// document.write("Total currency in PKR:"+" "+totalPKR );
+
+//q 10.
+// var num=(10+5)*10/2;
+// console.log(num);
+
+
+
+//chapter 6 pdf MATH EXPRESSIONS
+
+//q 1.
+// var a= 10
+// valueA= ++a;
+// console.log(value);
+
+// var  a= 11;
+// vakueA = a++
+// console.log(a);
+
+//  var  a= 12;
+//  vakueA = --a;
+//  console.log(vakueA);
+
+//  var  a= 11;
+//  vakueA = a--;
+//  console.log(a);
+
+//q 2.
+// var a=2;
+// var b=1;
+// var result = --a - --b + ++b + b--;
+// console.log(result);
+// document.write("a is 1" +" "+ "b is 2");
+
+//q 3.
+// var userName=prompt("Please enter your name");
+// console.log(userName);
+
+
