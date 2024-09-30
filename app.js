@@ -211,6 +211,12 @@
 // var totalCost= price* tickets;
 // document.write("Total cost to buy"+" "+ tickets+" "+ "Tickets to amovie is" +" "+totalCost+" "+"PKR");
 
+// //q5.
+// var table= prompt("enter table of 4");
+// for(var i=0;i<=10;i++){
+//         document.write(`${table}*${i}= ${table*i} <br>`);
+// } 
+
 //q 6.
 // var Celsius=25;
 // var Fahrenheit=(Celsius*9/5)+32;
@@ -220,24 +226,27 @@
 // var Celsius=(Fahrenheit-32)*9/5;
 // document.write("70oC is"+" "+  Celsius+"oF");
 
-//q 7.
+// //q 7.
 // var priceItem1 =650;
 // var quantityItem1 =3;
 // var priceItem2 = 100; 
 // var quantityItem2 =7;
 // var shippingCharges =100;
-// var totalCost= priceItem1*quantityItem1*quantityItem2*priceItem2*shippingCharges;
+// var item1= (priceItem1*quantityItem1)
+// var item2 =(priceItem2*quantityItem2)
+// var totalCost= (item1+item2+shippingCharges);
 
-// document.write("Price of item 1 is"+" "+priceItem1+" "+  "quantity of item 1 is"+" "+quantityItem1+" "+ "Price of item 2 is"+" "+priceItem2+
-//  "Quantity of item 2 is"+""+ quantityItem2+" "+ "Shipping charges"+" "+shippingCharges);
+// document.write(`Price of item 1 is ${priceItem1} <br> quantity of item 1 is ${quantityItem1}  <br> Price of item 2 is ${priceItem2}  <br> quantity of item2 is${quantityItem2}
+//       <br>    shippingCharges ${shippingCharges} <br> <br> Total coast of your order is${totalCost}`);
 
-//  document.write("Total cost pof your order is"+" "+totalCost);
+// //  document.write("Total cost pof your order is"+" "+totalCost);
 
-//q 8.
+// //q 8.
 // var totalMarks= 980;
 // var markObtained= 804;
 // var percentage=(totalMarks/markObtained)*100;
-// document.write("Toatl mark"+" "+totalMarks+" " +"Mark obtained"+" "+markObtained+" "+percentage);
+// document.write(`<h1>Mark Sheet</h1>  <br> <br>
+//         Toatl mark ${totalMarks} <br> Mark obtained ${markObtained} <br> percentage ${percentage}%`);
 
 //q 9.
 // var totalPKR= (10*104.80)+(25*28);
